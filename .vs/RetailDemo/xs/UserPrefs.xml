@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{358DC122-7EC6-A8FA-ECA5-10A205BF89E9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Utility/SimpleActivatorMenu.cs">
+    <Files>
+      <File FileName="Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" Line="11" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RetailDemo" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="860fc2e1-72ac-42e4-9b08-9aa90f3175b8" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
