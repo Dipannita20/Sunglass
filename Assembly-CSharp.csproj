@@ -56,16 +56,16 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/SampleScenes/Scripts/ParticleSceneControls.cs" />
-    <Compile Include="Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs" />
-    <Compile Include="Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs" />
     <Compile Include="Assets/SampleScenes/Scripts/SlowMoButton.cs" />
     <Compile Include="Assets/SampleScenes/Scripts/LevelReset.cs" />
     <Compile Include="Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" />
     <Compile Include="Assets/SampleScenes/Scripts/CameraSwitch.cs" />
-    <Compile Include="Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" />
-    <Compile Include="Assets/Scripts/ProductDetail.cs" />
+    <Compile Include="Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs" />
+    <Compile Include="Assets/SampleScenes/Scripts/ParticleSceneControls.cs" />
     <Compile Include="Assets/Scripts/InputHandler.cs" />
+    <Compile Include="Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" />
+    <Compile Include="Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs" />
+    <Compile Include="Assets/Scripts/ProductDetail.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

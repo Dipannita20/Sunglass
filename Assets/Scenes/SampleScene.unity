@@ -140,6 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 149
   quantity: 1
   productColor: Red
@@ -162,6 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 99
   quantity: 1
   productColor: White
@@ -184,11 +186,149 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 699
   quantity: 1
   productColor: Blue
   pruductname: Skin Oily
   pruductdescription: Skin Oily Description
+--- !u!1 &36139770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 36139771}
+  - component: {fileID: 36139773}
+  - component: {fileID: 36139772}
+  m_Layer: 5
+  m_Name: ProductColor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &36139771
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36139770}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 788874124}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -400}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &36139772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36139770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Product Color
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &36139773
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36139770}
+  m_CullTransparentMesh: 1
 --- !u!1 &78333058 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2009924285001659033, guid: d49f32176fee74bc5ab98622e01fc474, type: 3}
@@ -206,6 +346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: GiftStandard
   price: 349
   quantity: 4
   productColor: White
@@ -322,6 +463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: GiftPremium
   price: 1999
   quantity: 3
   productColor: Multicolor
@@ -646,6 +788,141 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+--- !u!1 &448297439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 448297440}
+  - component: {fileID: 448297442}
+  - component: {fileID: 448297441}
+  m_Layer: 5
+  m_Name: ProductDescription
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &448297440
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448297439}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 788874124}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -300}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &448297441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448297439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Product Description
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &448297442
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448297439}
+  m_CullTransparentMesh: 1
 --- !u!1 &475140829
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,6 +967,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6924f9990714528bea5e7ae119a200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Panel: {fileID: 1329364108}
+  productImage: {fileID: 800325977}
+  ProductName: {fileID: 1015130519}
+  ProductDescription: {fileID: 448297441}
+  ProductPrice: {fileID: 1907823272}
+  ProductColor: {fileID: 36139772}
+  fallbackSprite: {fileID: 21300000, guid: 12ef7cbdfe0e143fa858a324456c8979, type: 3}
+  imageList:
+  - {fileID: 21300000, guid: ce23a4d5f0e3b4df68bc6ea65d93cd62, type: 3}
+  - {fileID: 21300000, guid: 3d57f593eaec5409f91a0578d1143159, type: 3}
+  - {fileID: 21300000, guid: 911e8ca69ad95466998fd5531a48c3be, type: 3}
 --- !u!1 &541478092 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100188, guid: 5aa4fdf54132abb479709f9973cd6d94, type: 3}
@@ -725,6 +1013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: GiftPremium
   price: 1999
   quantity: 3
   productColor: Multicolor
@@ -747,6 +1036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: GiftPremium
   price: 1999
   quantity: 3
   productColor: Multicolor
@@ -896,6 +1186,9 @@ RectTransform:
   m_Children:
   - {fileID: 800325976}
   - {fileID: 1015130518}
+  - {fileID: 448297440}
+  - {fileID: 1907823271}
+  - {fileID: 36139771}
   m_Father: {fileID: 1329364109}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1034,7 +1327,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: ce23a4d5f0e3b4df68bc6ea65d93cd62, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1067,6 +1360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 99
   quantity: 1
   productColor: White
@@ -1107,6 +1401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 799
   quantity: 1
   productColor: Green
@@ -1129,6 +1424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 999
   quantity: 1
   productColor: Yellow
@@ -1151,6 +1447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 699
   quantity: 1
   productColor: Blue
@@ -1173,6 +1470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: GiftSpecial
   price: 299
   quantity: 2
   productColor: White, Brown
@@ -1263,10 +1561,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 31.1
   m_fontSizeBase: 30
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1366,6 +1664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: GiftSpecial
   price: 299
   quantity: 2
   productColor: White, Brown
@@ -1388,6 +1687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: GiftStandard
   price: 349
   quantity: 4
   productColor: White
@@ -1410,6 +1710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 99
   quantity: 1
   productColor: White
@@ -1432,6 +1733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 149
   quantity: 1
   productColor: Red
@@ -1531,6 +1833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 799
   quantity: 1
   productColor: Green
@@ -1553,6 +1856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 999
   quantity: 1
   productColor: Yellow
@@ -1669,6 +1973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 99
   quantity: 1
   productColor: White
@@ -1691,6 +1996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 199
   quantity: 1
   productColor: Brown
@@ -3492,6 +3798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 149
   quantity: 1
   productColor: Red
@@ -3532,6 +3839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 999
   quantity: 1
   productColor: Yellow
@@ -3554,6 +3862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 699
   quantity: 1
   productColor: Blue
@@ -4023,6 +4332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: GiftSpecial
   price: 299
   quantity: 2
   productColor: White, Brown
@@ -4045,6 +4355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 799
   quantity: 1
   productColor: Green
@@ -4067,6 +4378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 199
   quantity: 1
   productColor: Brown
@@ -4209,6 +4521,141 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.61817807, y: 1.4050705, z: 1.1552982}
   m_Center: {x: -0.0000023841858, y: 0, z: -0.00000035762787}
+--- !u!1 &1907823270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1907823271}
+  - component: {fileID: 1907823273}
+  - component: {fileID: 1907823272}
+  m_Layer: 5
+  m_Name: ProductPrice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1907823271
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907823270}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 788874124}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -350}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &1907823272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907823270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Product Price
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1907823273
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907823270}
+  m_CullTransparentMesh: 1
 --- !u!1 &1910691832 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2009924285030259499, guid: d49f32176fee74bc5ab98622e01fc474, type: 3}
@@ -4226,6 +4673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: GiftStandard
   price: 349
   quantity: 4
   productColor: White
@@ -4282,6 +4730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12d3c9f7a2ef44938bee100504ee5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageURL: 
   price: 199
   quantity: 1
   productColor: Brown
