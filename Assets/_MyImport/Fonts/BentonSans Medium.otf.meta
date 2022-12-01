@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 835c4feb61805dd4285ef44531a1fc92
+timeCreated: 1489564450
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: BentonSans Medium
+  fontNames:
+  - BentonSans Medium
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

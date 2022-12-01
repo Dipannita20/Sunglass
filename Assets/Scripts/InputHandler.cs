@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class InputHandler : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class InputHandler : MonoBehaviour
     public TextMeshProUGUI ProductPrice;
     public TextMeshProUGUI ProductColor;
     public Sprite fallbackSprite;
+
+    public GameObject FPSController;
+    public GameObject staticCamera;
 
     public List<Sprite> imageList = new List<Sprite>();
     // Start is called before the first frame update
@@ -29,33 +33,52 @@ public class InputHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(!FPSController.activeInHierarchy){
+                FPSController.SetActive(true);
+                staticCamera.SetActive(false);
+            }
+        }
         if (Input.GetMouseButtonDown(0))
         {
+            if (!FPSController.activeSelf)
+                return;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, 100))
             {
-                
-                //Make Panel active
-                if (Panel != null)
-                {
-                    Panel.SetActive(true);
-                }
 
-                //Fetch product detail
-                var product = hit.transform.GetComponent<ProductDetail>();
-                ProductName.text = product.pruductname;
-                ProductDescription.text = product.pruductdescription;
-                ProductColor.text = "Color: "+product.productColor;
-                ProductPrice.text = $"Rs {product.price.ToString()}";
-                Debug.Log(hit.transform.name);
-                if (!string.IsNullOrEmpty(product.imageURL))
+                if (hit.transform.name == "Chair")
                 {
-                    productImage.sprite = imageList.Find(a => a.name == product.imageURL);
+                    FPSController.SetActive(false);
+                    staticCamera.SetActive(true);
+                    StartCoroutine(UIController.instance.StartQuestion());
                 }
                 else
                 {
-                    productImage.sprite = fallbackSprite;
+
+                    //Make Panel active
+                    if (Panel != null)
+                    {
+                        Panel.SetActive(true);
+                    }
+
+                    //Fetch product detail
+                    var product = hit.transform.GetComponent<ProductDetail>();
+                    ProductName.text = product.pruductname;
+                    ProductDescription.text = product.pruductdescription;
+                    ProductColor.text = "Color: " + product.productColor;
+                    ProductPrice.text = $"Rs {product.price.ToString()}";
+                    Debug.Log(hit.transform.name);
+                    if (!string.IsNullOrEmpty(product.imageURL))
+                    {
+                        productImage.sprite = imageList.Find(a => a.name == product.imageURL);
+                    }
+                    else
+                    {
+                        productImage.sprite = fallbackSprite;
+                    }
                 }
             }
         }
