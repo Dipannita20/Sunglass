@@ -10,19 +10,18 @@ public class UIController : MonoBehaviour
     public RectTransform SkinQuestion;
     public RectTransform GiftQuestion;
     public RectTransform BasedOnInformation;
-    public RectTransform Welcome;
+    public RectTransform WelcomeFirstMessage;
+    public RectTransform WelcomeSecondMessage;
+    public RectTransform WelcomeOnTheChair;
+
+    public RectTransform RefPanel;
 
     private Vector2 QuestionPanelOnScreenPosition;
     private Vector2 QuestionPanelResetPosition;
 
-    private Vector2 FoundationQuestionPanelOnScreenPosition;
-    private Vector2 FoundationQuestionPanelResetPosition;
+    private RectTransform activePanel;
 
-    private Vector2 SkinQuestionOnScreenPosition;
-    private Vector2 SkinQuestionResetPosition;
-
-    private Vector2 GiftQuestionOnScreenPosition;
-    private Vector2 GiftQuestionResetPosition;
+    public GameObject RecomendedProduct;
 
 
     // Start is called before the first frame update
@@ -32,36 +31,68 @@ public class UIController : MonoBehaviour
         //QuestionPanelResetPosition = FoundationQuestion.
         // QuestionPanelOnScreenPosition = new Vector3(-338, 63, 0);*/
 
-        //FoundationQuestion.anchoredPosition = new Vector2(340, 63);
-
-        QuestionPanelOnScreenPosition = new Vector2(60, -177);
         QuestionPanelResetPosition = QuestionPanel.anchoredPosition;
-        FoundationQuestionPanelResetPosition = FoundationQuestion.anchoredPosition;
-        SkinQuestionResetPosition = SkinQuestion.anchoredPosition;
-        GiftQuestionResetPosition = GiftQuestion.anchoredPosition;
+        QuestionPanelOnScreenPosition = RefPanel.anchoredPosition;
+     
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public IEnumerator StartQuestion()
     {
         yield return new WaitForSeconds(1f);
-        QuestionPanel.anchoredPosition = QuestionPanelOnScreenPosition;
+        QuestionPanel1stOption(QuestionPanel);
     }
 
-    public void QuestionPanel1stOption()
+    public void QuestionPanel1stOption(RectTransform panel)
     {
-        Debug.Log("1st");
+        if (activePanel)
+            activePanel.anchoredPosition = QuestionPanelResetPosition;
+
+        if (panel.name != "BasedOnInformation")
+        {
+            panel.anchoredPosition = QuestionPanelOnScreenPosition;
+            activePanel = panel;
+        }
+
+        switch (panel.name)
+        {
+
+            case "QuestionPanel":
+                StartCoroutine(AnimationControl.instance.PlayAnimationClip(AnimationControl.instance.lip1, AnimationControl.instance.idle1, AnimationControl.instance.lipaudio3, 0.5f));
+                break;
+
+            case "FoundationQuestion":
+                StartCoroutine(AnimationControl.instance.PlayAnimationClip(AnimationControl.instance.lip4, AnimationControl.instance.idle1, AnimationControl.instance.lipaudio4, 0.5f));
+                break;
+
+            case "SkinQuestion":
+                StartCoroutine(AnimationControl.instance.PlayAnimationClip(AnimationControl.instance.lip5, AnimationControl.instance.idle1, AnimationControl.instance.lipaudio5, 0.5f));
+                break;
+
+            case "GiftQuestion":
+                StartCoroutine(AnimationControl.instance.PlayAnimationClip(AnimationControl.instance.lip6, AnimationControl.instance.idle1, AnimationControl.instance.lipaudio6, 0.5f));
+                break;
+
+            case "BasedOnInformation":
+                StartCoroutine(AnimationControl.instance.PlayAnimationClip(AnimationControl.instance.lip7, AnimationControl.instance.idle1, AnimationControl.instance.lipaudio7, 0.5f));
+                InputHandler.instance.ShowProductDetails(RecomendedProduct.transform);
+                //Reset();
+                break;
+        }
+
+        Debug.Log(panel.name);
+
+        //
+
     }
-    public void QuestionPanel2ndOption()
+
+    public void Reset()
     {
-        Debug.Log("2nd");
+        if(activePanel)
+           activePanel.anchoredPosition = QuestionPanelResetPosition;
+
+        activePanel = null;
     }
-    public void QuestionPanel3rdOption()
-    {
-        Debug.Log("3rd");
-    }
+
 }
+
+

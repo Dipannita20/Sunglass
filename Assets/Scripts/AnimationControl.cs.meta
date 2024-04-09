@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 202ba409bcaa4c743b6503345da489d0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - CharacterAnimator: {instanceID: 0}
+  - lip1: {fileID: 7400000, guid: bda6dc0fd599299488b70378a0e26598, type: 3}
+  - lip2: {fileID: 7400002, guid: bda6dc0fd599299488b70378a0e26598, type: 3}
+  - lip3: {fileID: 7400004, guid: bda6dc0fd599299488b70378a0e26598, type: 3}
+  - lip4: {fileID: 7400006, guid: bda6dc0fd599299488b70378a0e26598, type: 3}
+  - lip5: {fileID: 7400008, guid: bda6dc0fd599299488b70378a0e26598, type: 3}
+  - lip6: {fileID: 7400010, guid: bda6dc0fd599299488b70378a0e26598, type: 3}
+  - lip7: {fileID: 7400012, guid: bda6dc0fd599299488b70378a0e26598, type: 3}
+  - lip8: {fileID: 7400014, guid: bda6dc0fd599299488b70378a0e26598, type: 3}
+  - audSource: {instanceID: 0}
+  - lipaudio1: {fileID: 8300000, guid: 642896ca60ebdc2438c637910e10aaa1, type: 3}
+  - lipaudio2: {fileID: 8300000, guid: 968c24b310eca6442a1f14c27813c043, type: 3}
+  - lipaudio3: {fileID: 8300000, guid: 96ee68c89a7313346b2809c4dd779af0, type: 3}
+  - lipaudio4: {fileID: 8300000, guid: fb68a01b7f0a7b84ba25cb73da957368, type: 3}
+  - lipaudio5: {fileID: 8300000, guid: 9eccfdf8cffa62d4cbf31af71f6cee31, type: 3}
+  - lipaudio6: {fileID: 8300000, guid: f9359d299663ef8458b5b3160b7dd5af, type: 3}
+  - lipaudio7: {fileID: 8300000, guid: 11c846b724dfd6c459fdbdbc1f6d007a, type: 3}
+  - lipaudio8: {fileID: 8300000, guid: 59b83ee3f2daade4aa17a5568ed40176, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

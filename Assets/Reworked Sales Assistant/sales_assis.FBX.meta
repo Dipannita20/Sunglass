@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: bda6dc0fd599299488b70378a0e26598
+timeCreated: 1526288784
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: :LeftHandPinky1
+    100002: braid01Mesh
+    100004: face003
+    100006: high_polyMesh
+    100008: knitted_sweater_02Mesh
+    100010: mariashoesMesh
+    100012: mixamorig:Head
+    100014: mixamorig:HeadTop_End
+    100016: mixamorig:Hips
+    100018: mixamorig:LeftArm
+    100020: mixamorig:LeftFoot
+    100022: mixamorig:LeftForeArm
+    100024: mixamorig:LeftHand
+    100026: mixamorig:LeftHandIndex1
+    100028: mixamorig:LeftHandIndex2
+    100030: mixamorig:LeftHandIndex3
+    100032: mixamorig:LeftHandIndex4
+    100034: mixamorig:LeftHandMiddle1
+    100036: mixamorig:LeftHandMiddle2
+    100038: mixamorig:LeftHandMiddle3
+    100040: mixamorig:LeftHandMiddle4
+    100042: mixamorig:LeftHandPinky2
+    100044: mixamorig:LeftHandPinky3
+    100046: mixamorig:LeftHandPinky4
+    100048: mixamorig:LeftHandRing1
+    100050: mixamorig:LeftHandRing2
+    100052: mixamorig:LeftHandRing3
+    100054: mixamorig:LeftHandRing4
+    100056: mixamorig:LeftHandThumb1
+    100058: mixamorig:LeftHandThumb2
+    100060: mixamorig:LeftHandThumb3
+    100062: mixamorig:LeftHandThumb4
+    100064: mixamorig:LeftLeg
+    100066: mixamorig:LeftShoulder
+    100068: mixamorig:LeftToe_End
+    100070: mixamorig:LeftToeBase
+    100072: mixamorig:LeftUpLeg
+    100074: mixamorig:Neck
+    100076: mixamorig:RightArm
+    100078: mixamorig:RightFoot
+    100080: mixamorig:RightForeArm
+    100082: mixamorig:RightHand
+    100084: mixamorig:RightHandIndex1
+    100086: mixamorig:RightHandIndex2
+    100088: mixamorig:RightHandIndex3
+    100090: mixamorig:RightHandIndex4
+    100092: mixamorig:RightHandMiddle1
+    100094: mixamorig:RightHandMiddle2
+    100096: mixamorig:RightHandMiddle3
+    100098: mixamorig:RightHandMiddle4
+    100100: mixamorig:RightHandPinky1
+    100102: mixamorig:RightHandPinky2
+    100104: mixamorig:RightHandPinky3
+    100106: mixamorig:RightHandPinky4
+    100108: mixamorig:RightHandRing1
+    100110: mixamorig:RightHandRing2
+    100112: mixamorig:RightHandRing3
+    100114: mixamorig:RightHandRing4
+    100116: mixamorig:RightHandThumb1
+    100118: mixamorig:RightHandThumb2
+    100120: mixamorig:RightHandThumb3
+    100122: mixamorig:RightHandThumb4
+    100124: mixamorig:RightLeg
+    100126: mixamorig:RightShoulder
+    100128: mixamorig:RightToe_End
+    100130: mixamorig:RightToeBase
+    100132: mixamorig:RightUpLeg
+    100134: mixamorig:Spine
+    100136: mixamorig:Spine1
+    100138: mixamorig:Spine2
+    100140: Rectangle001
+    100142: //RootNode
+    100144: Sphere001
+    100146: teeth_baseMesh
+    100148: tightjeansMesh
+    100150: upper teeth
+    100152: woman_11Mesh
+    400000: :LeftHandPinky1
+    400002: braid01Mesh
+    400004: face003
+    400006: high_polyMesh
+    400008: knitted_sweater_02Mesh
+    400010: mariashoesMesh
+    400012: mixamorig:Head
+    400014: mixamorig:HeadTop_End
+    400016: mixamorig:Hips
+    400018: mixamorig:LeftArm
+    400020: mixamorig:LeftFoot
+    400022: mixamorig:LeftForeArm
+    400024: mixamorig:LeftHand
+    400026: mixamorig:LeftHandIndex1
+    400028: mixamorig:LeftHandIndex2
+    400030: mixamorig:LeftHandIndex3
+    400032: mixamorig:LeftHandIndex4
+    400034: mixamorig:LeftHandMiddle1
+    400036: mixamorig:LeftHandMiddle2
+    400038: mixamorig:LeftHandMiddle3
+    400040: mixamorig:LeftHandMiddle4
+    400042: mixamorig:LeftHandPinky2
+    400044: mixamorig:LeftHandPinky3
+    400046: mixamorig:LeftHandPinky4
+    400048: mixamorig:LeftHandRing1
+    400050: mixamorig:LeftHandRing2
+    400052: mixamorig:LeftHandRing3
+    400054: mixamorig:LeftHandRing4
+    400056: mixamorig:LeftHandThumb1
+    400058: mixamorig:LeftHandThumb2
+    400060: mixamorig:LeftHandThumb3
+    400062: mixamorig:LeftHandThumb4
+    400064: mixamorig:LeftLeg
+    400066: mixamorig:LeftShoulder
+    400068: mixamorig:LeftToe_End
+    400070: mixamorig:LeftToeBase
+    400072: mixamorig:LeftUpLeg
+    400074: mixamorig:Neck
+    400076: mixamorig:RightArm
+    400078: mixamorig:RightFoot
+    400080: mixamorig:RightForeArm
+    400082: mixamorig:RightHand
+    400084: mixamorig:RightHandIndex1
+    400086: mixamorig:RightHandIndex2
+    400088: mixamorig:RightHandIndex3
+    400090: mixamorig:RightHandIndex4
+    400092: mixamorig:RightHandMiddle1
+    400094: mixamorig:RightHandMiddle2
+    400096: mixamorig:RightHandMiddle3
+    400098: mixamorig:RightHandMiddle4
+    400100: mixamorig:RightHandPinky1
+    400102: mixamorig:RightHandPinky2
+    400104: mixamorig:RightHandPinky3
+    400106: mixamorig:RightHandPinky4
+    400108: mixamorig:RightHandRing1
+    400110: mixamorig:RightHandRing2
+    400112: mixamorig:RightHandRing3
+    400114: mixamorig:RightHandRing4
+    400116: mixamorig:RightHandThumb1
+    400118: mixamorig:RightHandThumb2
+    400120: mixamorig:RightHandThumb3
+    400122: mixamorig:RightHandThumb4
+    400124: mixamorig:RightLeg
+    400126: mixamorig:RightShoulder
+    400128: mixamorig:RightToe_End
+    400130: mixamorig:RightToeBase
+    400132: mixamorig:RightUpLeg
+    400134: mixamorig:Spine
+    400136: mixamorig:Spine1
+    400138: mixamorig:Spine2
+    400140: Rectangle001
+    400142: //RootNode
+    400144: Sphere001
+    400146: teeth_baseMesh
+    400148: tightjeansMesh
+    400150: upper teeth
+    400152: woman_11Mesh
+    2300000: Sphere001
+    2300002: teeth_baseMesh
+    2300004: upper teeth
+    3300000: Sphere001
+    3300002: teeth_baseMesh
+    3300004: upper teeth
+    4300000: woman_11Mesh
+    4300002: braid01Mesh
+    4300004: high_polyMesh
+    4300006: knitted_sweater_02Mesh
+    4300008: mariashoesMesh
+    4300010: tightjeansMesh
+    4300012: Rectangle001
+    4300014: upper teeth
+    4300016: teeth_baseMesh
+    4300018: Sphere001
+    4300020: face003
+    7400000: lip1
+    7400002: lip2
+    7400004: lip3
+    7400006: lip4
+    7400008: lip5
+    7400010: lip6
+    7400012: lip7
+    7400014: lip8
+    7400016: idle1
+    7400018: idle2
+    7400020: idle3
+    9500000: //RootNode
+    13700000: braid01Mesh
+    13700002: face003
+    13700004: high_polyMesh
+    13700006: knitted_sweater_02Mesh
+    13700008: mariashoesMesh
+    13700010: Rectangle001
+    13700012: tightjeansMesh
+    13700014: woman_11Mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 094d3c7b7e43cbb429e93926188f8ea7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: e492b59a97925c0408940b6544e45830, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 21935a8f6af23af4ebb161c590b13032, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04 - Default
+    second: {fileID: 2100000, guid: fd5585136aa06ad4fbc49923c7c61cd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 06 - Default
+    second: {fileID: 2100000, guid: b75a99c3c93d61647be2b5f0eef49013, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default
+    second: {fileID: 2100000, guid: 31dfc87755795f34fab9160f196a7bc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 - Default
+    second: {fileID: 2100000, guid: 27a11ee288ec65445875835329e79bd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: ed2d607c7dee2eb4684b0846ec7167e8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: lip1
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: lip2
+      takeName: Take 001
+      firstFrame: 140
+      lastFrame: 330
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: lip3
+      takeName: Take 001
+      firstFrame: 330
+      lastFrame: 430
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: lip4
+      takeName: Take 001
+      firstFrame: 430
+      lastFrame: 530
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: lip5
+      takeName: Take 001
+      firstFrame: 530
+      lastFrame: 630
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: lip6
+      takeName: Take 001
+      firstFrame: 630
+      lastFrame: 720
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: lip7
+      takeName: Take 001
+      firstFrame: 720
+      lastFrame: 860
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: lip8
+      takeName: Take 001
+      firstFrame: 860
+      lastFrame: 1076
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle1
+      takeName: Take 001
+      firstFrame: 1076
+      lastFrame: 1200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle2
+      takeName: Take 001
+      firstFrame: 1210
+      lastFrame: 1300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle3
+      takeName: Take 001
+      firstFrame: 1310
+      lastFrame: 1400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
